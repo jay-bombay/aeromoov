@@ -1,0 +1,18 @@
+html {
+    height: 100vh;
+  }
+  
+  body {
+    height: 500vh;
+    background: #000;
+  }
+  
+  canvas {
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* transform: translate(-50%, -50%); */
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+  }
